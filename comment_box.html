@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comment Box</title>
+    <style>
+        .comment{
+            border: 2px solid blue;
+            background-color:  lightcyan;
+            margin: 10x;
+            padding: 8px;
+            border-radius: 10px;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>My Awsome comment Box. Write in your Email</h1>
+
+    <section>
+      <h3>All comments box</h3>
+      <div>
+        <p class="comment">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+          pariatur sint fuga laboriosam eligendi debitis aperiam maxime quod
+          sed. Accusantium!
+        </p>
+        <p class="comment">
+          Repudiandae fugiat velit quidem magnam a, labore asperiores distinctio
+          cumque consequuntur voluptatum veniam. Blanditiis nam consectetur
+          mollitia tenetur omnis! Neque?
+        </p>
+        <p class="comment">
+          Reprehenderit rem deleniti itaque recusandae asperiores veniam at
+          mollitia illo impedit totam. Accusantium velit porro soluta? Molestias
+          quidem qui sunt?
+        </p>
+      </div>
+      <!-- <form> -->
+        <!-- <input type="text"> -->
+         <textarea name="" id="" cols="60" rows="5"></textarea>
+        <br></br>
+        <button id="btn-post-comment">Post Comment</button>
+      <!-- </form> -->
+    </section>
+  </body>
+  <script>
+
+    // step -1:set an event handler to the button
+    document.getElementById('btn-post-comment')
+    .addEventListener('click',function(){
+        console.log('post btn finished');
+    })
+
+
+    
+  </script>
+</html>
