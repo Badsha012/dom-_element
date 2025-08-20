@@ -15,12 +15,30 @@
  <button onclick="makeYello()">make yelloew</button>
  <button onclick="makeRed()">Make Red</button>
  <br>
+ <!-- option : 3 get elemen bu=y id thsen set onclick toa  function -->
  <button id="btn-blue">Make Blue</button>
+ <button id="btn-purple">Make Purple</button>
+ <button id="btn-gold">Make Gold</button>
 
  <br>
- <button id="btn-purple">Make Purple</button>
+ <!-- option :4 get addeven -->
+
+ <button id="btn-make-green">Make Green</button>
+
+
+
 
  <script>
+
+    // getElment byid
+
+    document.getElementById('btn-make-green').addEventListener('click',function maeGreen(){
+        // console.log(777);
+        document.body.style.backgroundColor='green';
+    });
+    document.getElementById('btn-gold').addEventListener('click',function makeGold(params) {
+      document.body .style.backgroundColor ='gold';
+    })
 //     const btnMake=document.getElementById('btn-blue');
 //    // console.log(btnMake);
 //    btnMake.onclick=function makeBlue(){
